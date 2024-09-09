@@ -42,8 +42,8 @@ Class Buku {
 <h4>Method</h4>
 
 ```php
-public function tampilDataBuku(){
-}
+public function __construct() {
+        }
 ```
 - Merepresentasikan perilaku dari sebuah object
 - Function yang ada di dalam object
