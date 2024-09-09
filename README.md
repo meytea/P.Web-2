@@ -5,15 +5,15 @@
   NIM     : 230102038
 </pre>
 
-#Daftar Isi
+<h3>Daftar Isi</h3>
 <ol>
-  <a href=pweb/jobsheet1>JobSheet1</li>
+  <li>JobSheet1</li>
   <li>JobSheet2</li>
   <li>JobSheet3</li>
 </ol>
 
-#Pengenalan OOP PHP
-xxx
+<h3>Pengenalan OOP PHP</h3>
+Repositori ini dibuat untuk memenuhi tugas perkuliahan Praktikum Web 2
 
-#Authors
+<h3>Authors</h3>
 Meilita Ayu Nur Khasanah
