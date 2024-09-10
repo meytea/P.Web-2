@@ -13,7 +13,8 @@
 </ol>
 
 <h3>Pengenalan OOP PHP</h3>
-Repositori ini dibuat untuk memenuhi tugas perkuliahan Praktikum Web 2
+Object-Oriented Programming (OOP) adalah paradigma pemrograman yang
+berfokus pada konsep objek. Dalam OOP, konsep dasar seperti class dan object digunakan untuk memodelkan masalah dunia nyata ke dalam kode program. Prinsip prinsip dasar OOP termasuk Encapsulation, Inheritance, Polymorphism, dan Abstraction yang memungkinkan kode lebih modular, terstruktur, dan mudah dipelihara.
 
 <h3>Authors</h3>
 Meilita Ayu Nur Khasanah
