@@ -36,7 +36,7 @@
 Class Mahasiswa
 ```
 
-- Memberikan atribut nama, nip dan mataKuliah dideklarasikan sebagai atribut (public) yang berarti atribut tersebut dapat diakses langsung dari luar kelas
+- Memberikan atribut nama, nim dan jurusan dideklarasikan sebagai atribut (public) yang berarti atribut tersebut dapat diakses langsung dari luar kelas
 
   ```php
   public $nama;
@@ -93,6 +93,19 @@ Output :
     echo $mhs1->tampilkanData();
 ?>
 ```
+<h4>Langkah-langkah Implementasi constructor </h4>
+- Masih dalam kelas yang sama yaitu Mahasiswa
+- Menambahkan metode Constructor yang digunakan untuk menginsialisasi atribut saat objek dibuat. Dalam contoh constructor ini menggunakan 3 parameter ($nama, $nim, $jurusan) dan constructor ini digunakan untuk mengatur nilai pada atribut kelas.
+
+```php
+ public function __construct($nama, $nim, $jurusan) {
+            $this->nama = $nama;
+            $this->nim = $nim;
+            $this->jurusan = $jurusan;
+        }
+```
+Output :
+
 
 <h3>3. Membuat Metode Tambahan</h3>
 
@@ -141,6 +154,21 @@ Output :
     echo $mhs1->tampilkanData();
 ?>
 ```
+
+<h4>Langkah-langkah Metode Tambahan </h4>
+- Masih dalam kelas yang sama yaitu Mahasiswa
+- Terdapat metode tambahan dalam kelas yaitu  updateJurusan() yang berfungsi khusus untuk memperbarui nilai pada atribut jurusan.
+
+```php
+ public function updateJurusan($jurusanBaru) {
+            $this->jurusan = $jurusanBaru;
+        }
+```
+
+
+Output :
+
+
 <h3>4. Penggunaan Atribut dan Metode</h3>
 
 ```php
@@ -188,3 +216,69 @@ Output :
     echo $mhs1->tampilkanData();
 ?>
 ```
+
+<h4>Langkah-langkah Atribut dan Method </h4>
+- Masih dalam kelas yang sama yaitu Mahasiswa
+- Menambahkan metode setter untuk mengubah nilai atribut nim pada kelas mahasiswa
+- Instansiasi objek Mahasiswa, panggil metode setter yaitu setNim($nim)untuk mengubah nilai nim, dan tampilkan data mahasiswa yang sudah diperbarui.
+
+```php
+ public function setNim($nim){
+            $this->nim = $nim;
+        }
+```
+
+Output :
+
+
+<h3>Tugas</h3>
+
+```php
+<?php
+    class Dosen {
+        public $nama;
+        public $nip;
+        public $mataKuliah;
+
+        public function tampilkanDosen(){
+            return "Nama Dosen   : $this->nama <br>
+                    NIP          : $this->nip <br>
+                    Mata Kuliah  : $this->mataKuliah";
+        }
+    }
+
+    //Instansiasi Object
+    $dosen1 = new Dosen ();
+    $dosen1->nama = "Andi Suripto";
+    $dosen1->nip = "10283216140946";
+    $dosen1->mataKuliah ="Matematika";
+
+    echo $dosen1->tampilkanDosen();
+?>
+```
+<h4>Langkah-langkah Pembuatan Tugas </h4>
+- Memberikan nama Kelas dosen  
+
+```php
+Class Dosen
+```
+
+- Memberikan atribut nama, nip dan mataKuliah dideklarasikan sebagai atribut (public) yang berarti atribut tersebut dapat diakses langsung dari luar kelas
+
+  ```php
+      public $nama;
+        public $nip;
+        public $mataKuliah;
+  ```
+  
+- Menambahkan metode tampilkanDosen() untuk menampilkan data apa saja yang akan di tampilkan 
+
+ ```php
+  public function tampilkanDosen(){
+            return "Nama Dosen   : $this->nama <br>
+                    NIP          : $this->nip <br>
+                    Mata Kuliah  : $this->mataKuliah";
+        }
+```
+
+Output :
