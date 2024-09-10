@@ -7,8 +7,8 @@
 
 <h3>Daftar Isi</h3>
 <ol>
-  <a href="pweb2/Jobsheet1">JobSheet1</li>
-  <li>JobSheet2</li>
+  <a href="pweb2/Jobsheet1">JobSheet1</a>
+  <a href="pweb2/Jobsheet2">JobSheet2</a>
   <li>JobSheet3</li>
 </ol>
 
