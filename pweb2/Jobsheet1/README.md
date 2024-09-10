@@ -51,7 +51,8 @@ public function __construct() {
 <h4>Constructor Method</h4>
 
 ```php
-public function __construct tampilDataBuku(){
+public function __construct($judul, $penulis, $penerbit){
+       }
 ```
 
 Sebuah method spesial atau khusu yang ada dalam sebuah kelas, method yang otomatis dijalankan ketika sebuah kelas instansiasi atau dibuat objectnya.
