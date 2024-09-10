@@ -7,9 +7,9 @@
 
 <h3>Daftar Isi</h3>
 <ol>
-  <a href="pweb2/Jobsheet1">JobSheet1</a>
-  <a href="pweb2/Jobsheet2">JobSheet2</a>
-  <li>JobSheet3</li>
+  <li><a href="pweb2/Jobsheet1">JobSheet1</a></li>
+  <li><a href="pweb2/Jobsheet2">JobSheet2</a></li>
+  <li><a href="#">JobSheet3</a></li>
 </ol>
 
 <h3>Pengenalan OOP PHP</h3>
