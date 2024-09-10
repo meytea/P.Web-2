@@ -1,5 +1,25 @@
 <h2>JobSheet1</h2>
 <h3>1. Membuat Class dam Object</h3>
+<b>Langkah-langkah:</b>
+<ol>
+    <li>Deklarasi Kelas: Kelas Dosen dideklarasikan menggunakan kata kunci class, diikuti dengan nama kelas (Dosen).</li>
+    <li>Atribut Kelas:</li>
+    <li>Atribut Kelas:</li>
+    
+</ol>
+- 
+- 
+    - public $nama: Menyimpan nama dosen.
+    - public $nip: Menyimpan Nomor Induk Pegawai (NIP) dosen.
+    - public $mataKuliah: Menyimpan mata kuliah yang diajarkan oleh dosen.
+    (Atribut-atribut ini adalah variabel yang menyimpan data yang relevan dengan objek Dosen).
+- Constructor:
+```php 
+public function __construct($nama, $nip, $mataKuliah): 
+// Constructor adalah metode khusus yang dipanggil secara otomatis ketika objek dibuat. Constructor digunakan untuk menginisialisasi atribut objek dengan nilai yang diberikan saat objek diinstansiasi.
+$this->nama = $nama;, $this->nip = $nip;, $this->mataKuliah = $mataKuliah; 
+//mengatur nilai dari atribut berdasarkan parameter yang diterima oleh constructor.
+```
 
 ```php
 <?php
