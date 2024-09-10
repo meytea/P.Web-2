@@ -3,7 +3,7 @@
 <h3>Penerapan masing-masing konsep OOP</h3>
 
 <h3>1. Inheritance</h3>
-Inheritance (pewarisan) adalah prinsip dalam OOP yang memungkinkan sebuah class (subclass/child class) untuk mewarisi atribut dan metode dari class lain (superclass/parent class). Ini berarti subclass dapat menggunakan properti dan perilaku (fungsi) dari parent class tanpa perlu mendefinisikannya kembali. Subclass juga dapat menambahkan atau mengubah perilaku dengan cara yang spesifik untuk subclass tersebut.
+Inheritance (pewarisan) dalam Object-Oriented Programming (OOP) adalah mekanisme yang memungkinkan sebuah class (subclass/child class) untuk mewarisi atribut dan metode dari class lain (superclass/parent class). Ini berarti subclass dapat menggunakan properti dan perilaku (fungsi) dari parent class tanpa perlu mendefinisikannya kembali. Subclass juga dapat menambahkan atau mengubah perilaku dengan cara yang spesifik untuk subclass tersebut.
 
 ```php
 <?php
@@ -103,7 +103,7 @@ Output :
 
 
 <h3>3. encapsulation</h3>
-Encapsulation adalah Konsep yang digunakan untuk menyembunyikan detail internal dari sebuah objek dan hanya memberikan akses terbatas kepada data melalui metode khusus yang disebut getter dan setter. Ini memastikan bahwa data dalam objek tidak dapat diakses langsung dari luar, sehingga hanya dapat dimanipulasi dengan cara yang telah ditentukan oleh objek tersebut.
+Encapsulation dalam Object-Oriented Programming (OOP) adalah konsep yang digunakan untuk menyembunyikan detail internal dari sebuah objek dan hanya memberikan akses terbatas kepada data melalui metode khusus yang disebut getter dan setter. Ini memastikan bahwa data dalam objek tidak dapat diakses langsung dari luar, sehingga hanya dapat dimanipulasi dengan cara yang telah ditentukan oleh objek tersebut.
 
 ```php
 <?php
