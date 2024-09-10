@@ -1,25 +1,6 @@
-<h2>JobSheet1</h2>
+<h2>JobSheet2</h2>
+
 <h3>1. Membuat Class dam Object</h3>
-<b>Langkah-langkah:</b>
-<ol>
-    <li>Deklarasi Kelas: Kelas Dosen dideklarasikan menggunakan kata kunci class, diikuti dengan nama kelas (Dosen).</li>
-    <li>Atribut Kelas:</li>
-    <li>Atribut Kelas:</li>
-    
-</ol>
-- 
-- 
-    - public $nama: Menyimpan nama dosen.
-    - public $nip: Menyimpan Nomor Induk Pegawai (NIP) dosen.
-    - public $mataKuliah: Menyimpan mata kuliah yang diajarkan oleh dosen.
-    (Atribut-atribut ini adalah variabel yang menyimpan data yang relevan dengan objek Dosen).
-- Constructor:
-```php 
-public function __construct($nama, $nip, $mataKuliah): 
-// Constructor adalah metode khusus yang dipanggil secara otomatis ketika objek dibuat. Constructor digunakan untuk menginisialisasi atribut objek dengan nilai yang diberikan saat objek diinstansiasi.
-$this->nama = $nama;, $this->nip = $nip;, $this->mataKuliah = $mataKuliah; 
-//mengatur nilai dari atribut berdasarkan parameter yang diterima oleh constructor.
-```
 
 ```php
 <?php
@@ -48,6 +29,34 @@ $this->nama = $nama;, $this->nip = $nip;, $this->mataKuliah = $mataKuliah;
     echo $mhs1->tampilkanData();
 ?>
 ```
+<h4>Langkah-langkah Pembuatan Kelas </h4>
+- Memberikan nama Kelas Mahasiswa 
+
+```php
+Class Mahasiswa
+```
+
+- Memberikan atribut nama, nip dan mataKuliah dideklarasikan sebagai atribut (public) yang berarti atribut tersebut dapat diakses langsung dari luar kelas
+
+  ```php
+  public $nama;
+  public $nim;
+  public $jurusan;
+  ```
+  
+- Menambahkan metode tampilkanData() untuk menampilkan data apa saja yang akan di tampilkan 
+
+ ```php
+  public function tampilkanData() {
+            return 
+            "Nama : $this->nama <br>
+             NIM : $this->nim <br>
+             Jurusan :  $this->jurusan";
+        }
+```
+
+Output :
+
 
 <h3>2. Implementasi Constructor</h3>
 
