@@ -52,6 +52,6 @@ public function __construct() {
 
 ```php
 public function __construct tampilDataBuku(){
-
+```
 
 Sebuah method spesial atau khusu yang ada dalam sebuah kelas, method yang otomatis dijalankan ketika sebuah kelas instansiasi atau dibuat objectnya.
