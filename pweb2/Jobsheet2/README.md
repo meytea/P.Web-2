@@ -43,7 +43,7 @@ Class Mahasiswa
   public $nim;
   public $jurusan;
   ```
-  
+
 - Menambahkan metode tampilkanData() untuk menampilkan data apa saja yang akan di tampilkan 
 
  ```php
@@ -95,6 +95,7 @@ Output :
 ```
 <h4>Langkah-langkah Implementasi constructor </h4>
 - Masih dalam kelas yang sama yaitu Mahasiswa
+
 - Menambahkan metode Constructor yang digunakan untuk menginsialisasi atribut saat objek dibuat. Dalam contoh constructor ini menggunakan 3 parameter ($nama, $nim, $jurusan) dan constructor ini digunakan untuk mengatur nilai pada atribut kelas.
 
 ```php
@@ -157,6 +158,7 @@ Output :
 
 <h4>Langkah-langkah Metode Tambahan </h4>
 - Masih dalam kelas yang sama yaitu Mahasiswa
+
 - Terdapat metode tambahan dalam kelas yaitu  updateJurusan() yang berfungsi khusus untuk memperbarui nilai pada atribut jurusan.
 
 ```php
@@ -219,7 +221,9 @@ Output :
 
 <h4>Langkah-langkah Atribut dan Method </h4>
 - Masih dalam kelas yang sama yaitu Mahasiswa
+
 - Menambahkan metode setter untuk mengubah nilai atribut nim pada kelas mahasiswa
+  
 - Instansiasi objek Mahasiswa, panggil metode setter yaitu setNim($nim)untuk mengubah nilai nim, dan tampilkan data mahasiswa yang sudah diperbarui.
 
 ```php
