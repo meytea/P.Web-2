@@ -20,7 +20,7 @@ $buku1 = new Buku;
 - Banyak object dapat dibuat menggunakan satu class
 - Dibuat dengan menggunakan keyword new
 
-<h3>Property dan Object</h3>
+<h3>Property dan Method</h3>
 
 <h4>Property</h4>
 
