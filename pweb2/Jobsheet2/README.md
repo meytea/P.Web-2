@@ -55,7 +55,7 @@ Class Mahasiswa
         }
 ```
 
-Output :
+Output : https://github.com/meytea/P.Web-2/blob/main/pweb2%2FJobsheet2%2Foutput%2F1.png
 
 
 <h3>2. Implementasi Constructor</h3>
